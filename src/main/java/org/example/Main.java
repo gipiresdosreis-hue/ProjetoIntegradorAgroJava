@@ -8,8 +8,6 @@ public class Main {
         Scanner entrada = new Scanner(System.in);
 
         int opcao = 0;
-
-
         double soma = 0;
         double maiorChuva = 0;
         double[] chuva = new double[7];
@@ -31,7 +29,7 @@ public class Main {
 
         do {
 
-            System.out.println("\n- Menu Consolidação de Safra");
+            System.out.println("Menu Consolidação de Safra");
             System.out.println("1 - Cadastrar Dados");
             System.out.println("2 - Exibir Mapa do Campo");
             System.out.println("3 - Relatório de Alertas de Irrigação");
@@ -86,7 +84,7 @@ public class Main {
 
             else if (opcao == 2) {
 
-                System.out.println("\n=== MAPA DO CAMPO ===");
+                System.out.println("MAPA DO CAMPO");
 
 
                 for (int linha = 0; linha < 4; linha++) {
@@ -104,7 +102,7 @@ public class Main {
                 }
 
 
-                System.out.println("\n=== MATRIZ DE UMIDADE ===");
+                System.out.println("MATRIZ DE UMIDADE");
 
                 for (int linha = 0; linha < 4; linha++) {
 
